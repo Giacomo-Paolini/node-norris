@@ -1,6 +1,6 @@
 const http = require('http');
 const dotenv = require('dotenv');
-const apiCall = require('./data/apiCall');
+const norrisDb = require('./data/norrisDb.json');
 const fs = require('fs');
 
 dotenv.config();
